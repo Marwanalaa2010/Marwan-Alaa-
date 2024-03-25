@@ -1,0 +1,101 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "<!DOCTYPE html>\n",
+    "<html>\n",
+    "<head>\n",
+    "  <title>موقع التصميم</title>\n",
+    "  <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n",
+    "</head>\n",
+    "<body>\n",
+    "  <header>\n",
+    "    <h1 id=\"name\">Marwan Alaa</h1>\n",
+    "    <div id=\"social\">\n",
+    "      <a href=\"#\">https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fi_say_fine_but_im_hurt%3Figsh%3DOTRqMWo3d2U3bDZ6&h=AT3_atMxQhOHPx-9LUumcMu21FRtk_zsAGYiVZ6y1N6lCEJbwi5opbniXoJKgsmOwrttvqPseL8Ceva0vAylYPTBOV6XpXpCrDWONiL2SUo7IaC_FYJf3jnp12XQ8APzYscp-Q</a>\n",
+    "      <a href=\"#\">https://l.messenger.com/l.php?u=https%3A%2F%2Fwa.me%2Fqr%2F46HFO52G4NVZJ1&h=AT3_atMxQhOHPx-9LUumcMu21FRtk_zsAGYiVZ6y1N6lCEJbwi5opbniXoJKgsmOwrttvqPseL8Ceva0vAylYPTBOV6XpXpCrDWONiL2SUo7IaC_FYJf3jnp12XQ8APzYscp-Q</a>\n",
+    "      <a href=\"#\">https://www.facebook.com/profile.php?id=61550714849611&mibextid=ZbWKwL</a>\n",
+    "      <a href=\"#\">https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40marwanalaainformation%3F_t%3D8kyWt3ATFyg%26_r%3D1&h=AT3_atMxQhOHPx-9LUumcMu21FRtk_zsAGYiVZ6y1N6lCEJbwi5opbniXoJKgsmOwrttvqPseL8Ceva0vAylYPTBOV6XpXpCrDWONiL2SUo7IaC_FYJf3jnp12XQ8APzYscp-Q</a>\n",
+    "    </div>\n",
+    "    <p id=\"welcome\">مرحبًا بك! إذا كنت ترغب في تصميم صورة أو لوجو، اتصل بنا بخط واضح وملون وواصل.</p>\n",
+    "    <p id=\"designs\">التصاميم المعروضة:</p>\n",
+    "    <a href=\"#\" id=\"addDesign\">اضغط هنا لإضافة تصميم جديد</a>\n",
+    "    <div id=\"navigation\">\n",
+    "      <a href=\"#\" id=\"previous\">Previous</a>\n",
+    "      <a href=\"#\" id=\"next\">Next</a>س\n",
+    "    </div>\n",
+    "  </header>\n",
+    "\n",
+    "  <script src=\"script.js\"></script>\n",
+    "</body>\n",
+    "</html>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#name {\n",
+    "  color: blue;\n",
+    "  font-size: 24px;\n",
+    "}\n",
+    "\n",
+    "#social a {\n",
+    "  margin-right: 10px;\n",
+    "}\n",
+    "\n",
+    "#welcome {\n",
+    "  font-weight: bold;\n",
+    "  font-size: 18px;\n",
+    "  color: red;\n",
+    "}\n",
+    "\n",
+    "#designs {\n",
+    "  font-weight: bold;\n",
+    "  font-size: 18px;\n",
+    "}\n",
+    "\n",
+    "#addDesign {\n",
+    "  font-weight: bold;\n",
+    "  color: green;\n",
+    "}\n",
+    "\n",
+    "#navigation a {\n",
+    "  margin-right: 10px;\n",
+    "  color: purple;\n",
+    "}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "window.onload = function() {\n",
+    "  var nameElement = document.getElementById(\"name\");\n",
+    "  nameElement.style.fontSize = \"40px\";\n",
+    "\n",
+    "  var welcomeElement = document.getElementById(\"welcome\");\n",
+    "  welcomeElement.style.color = \"blue\";\n",
+    "\n",
+    "  var designsElement = document.getElementById(\"designs\");\n",
+    "  designsElement.style.color = \"purple\";\n",
+    "};"
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "python"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
